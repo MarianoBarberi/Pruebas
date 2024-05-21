@@ -1,0 +1,138 @@
+:root {
+  --background: #faefe5;
+  --paragraphs: #5b5753;
+  --heading: #151414;
+  --accent-1: #f5d371;
+  --light: #fefaf7;
+  --shadow: rgba(51, 48, 44, .05);
+  --accent-2: #9edef9;
+  --accent-3: #fabdaa;
+  --border: #ded2c5;
+}
+
+.body-5 {
+  background-color: #fff;
+}
+
+.section-32 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container-4 {
+  background-color: #931a1f;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  max-width: 100px;
+  height: 50px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  display: flex;
+  position: fixed;
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+}
+
+.container-5 {
+  background-color: var(--background);
+  border-radius: 10px;
+  width: 40vw;
+  max-width: 450px;
+  height: 60vh;
+  margin-right: 40px;
+  padding: 5px;
+  position: fixed;
+  top: 24%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.containerChat{
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.formContainer {
+  display: flex;
+
+  padding: 1px;
+}
+
+.form-2 {
+  display: flex;
+  width: 100%;
+}
+
+.text-field-8 {
+  border-radius: 5px 0 0 5px;
+  width: 80%;
+  padding: 10px;
+  border: none;
+}
+
+.text-field-8:focus {
+  outline: none;
+}
+
+.submit-button-2 {
+  background-color: #931a1f;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  border: none;
+  width: 20%;
+}
+
+.container-6 {
+  background-color: #931a1f;
+  border-radius: 5px;
+  width: 80%;
+  min-height: 40px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  padding: 5px;
+  display: flex;
+}
+
+.container-6.bot {
+  background-color: #b72228;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.paragraph-2 {
+  color: var(--light);
+  word-break: break-all;
+  margin-bottom: 0;
+}
